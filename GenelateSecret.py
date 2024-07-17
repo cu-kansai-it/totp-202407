@@ -25,7 +25,7 @@ print (seed_string)
 
 # otpauth URI を生成する
 issuer = urllib.parse.quote('kansai-it')
-accountname = urllib.parse.quote('iwasaki')
+accountname = urllib.parse.quote('cu')
 time_step = 30
 type = 'totp'
 label = f'{issuer}:{accountname}'
